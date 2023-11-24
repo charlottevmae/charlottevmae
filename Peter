@@ -1,0 +1,79 @@
+<head>
+    <script src="https://kit.fontawesome.com/047a1d26d4.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            color:rgb(0, 0, 0);
+            font-family: "Open Sans";
+            text-align: center;
+            margin-top: 200px;
+            background-color: #94b594;
+        }
+
+        p {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .very_important_question {
+            background-color: white;
+            width: 750px;
+            padding: 30px;
+            position: relative;
+            top: 130px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        button {
+            background-color: #94b594;
+            border: none;
+            color: white;
+            margin-right: 30px;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        button:hover {
+            background-color: white;
+            border:1px #94b594;
+            color:#94b594;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+
+    </style>
+
+</head>
+<body>
+    <div class="very_important_question">
+        <p>Lieve nonkel broer</p></br>
+        <h1 style="font-size:60px;font-family: fantasy;margin-top: 0px;">Wil jij mijn <bold>peter</bold> zijn?</h1>
+        <p style="font-size:20px">Start opdracht: april 2024</p>
+        <div class="buttons" style="margin-top:70px">
+            <button>
+                <i class="fa-solid fa-hand-holding-dollar fa-xl" style="padding-right:10px"></i>
+                Ja, start automatische betaling
+            </button>
+            <button>
+                <i class="fa-solid fa-face-sad-cry fa-xl" style="padding-right:10px"></i>
+                Neen, laat je zus wenen
+            </button>
+        </div>  
+    </div>
+</body>
