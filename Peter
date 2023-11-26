@@ -1,16 +1,19 @@
 <head>
     <script src="https://kit.fontawesome.com/047a1d26d4.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&family=Shadows+Into+Light&display=swap" rel="stylesheet">    
     <style>
         body {
             color:rgb(0, 0, 0);
-            font-family: "Open Sans";
+            font-family: "dosis";
             text-align: center;
             margin-top: 200px;
             background-color: #94b594;
+            font-weight: 300;
         }
 
         p {
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             font-size: 30px;
             text-align: center;
         }
@@ -32,48 +35,37 @@
             margin-right: 30px;
             border-radius: 5px;
             padding: 10px;
+            border-style: solid;
+            font-size: 14px;
         }
 
         button:hover {
             background-color: white;
-            border:1px #94b594;
             color:#94b594;
+            border-style: solid;
         }
-
-        * {
-            box-sizing: border-box;
-        }
-
-        .col-1 {width: 8.33%;}
-        .col-2 {width: 16.66%;}
-        .col-3 {width: 25%;}
-        .col-4 {width: 33.33%;}
-        .col-5 {width: 41.66%;}
-        .col-6 {width: 50%;}
-        .col-7 {width: 58.33%;}
-        .col-8 {width: 66.66%;}
-        .col-9 {width: 75%;}
-        .col-10 {width: 83.33%;}
-        .col-11 {width: 91.66%;}
-        .col-12 {width: 100%;}
 
     </style>
 
 </head>
 <body>
     <div class="very_important_question">
-        <p>Lieve nonkel broer</p></br>
-        <h1 style="font-size:60px;font-family: fantasy;margin-top: 0px;">Wil jij mijn <bold>peter</bold> zijn?</h1>
+        <p>Liefste nonkel broer</p></br>
+        <h1 style="font-size:80px;font-family: shadows into light;margin-top: 0px;">Wil jij mijn <bold>peter</bold> zijn?</h1>
         <p style="font-size:20px">Start opdracht: april 2024</p>
         <div class="buttons" style="margin-top:70px">
-            <button>
-                <i class="fa-solid fa-hand-holding-dollar fa-xl" style="padding-right:10px"></i>
-                Ja, start automatische betaling
-            </button>
-            <button>
-                <i class="fa-solid fa-face-sad-cry fa-xl" style="padding-right:10px"></i>
-                Neen, laat je zus wenen
-            </button>
+            <a href="https://www.ing.be/nl/" target="blank" style="text-decoration:none">
+                <button>
+                    <i class="fa-solid fa-hand-holding-dollar fa-xl" style="padding-right:10px"></i>
+                    Ja, start automatische betaling
+                </button>
+            </a>
+            <a href="https://media.giphy.com/media/jXp6wAeHU3Ds3UoNMG/giphy.gif" target="blank">
+                <button>
+                    <i class="fa-solid fa-face-sad-cry fa-xl" style="padding-right:10px"></i>
+                    Neen, laat je zus wenen
+                </button>
+        </a>
         </div>  
     </div>
 </body>
