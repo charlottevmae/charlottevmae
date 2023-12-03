@@ -46,27 +46,41 @@
             border-style: solid;
         }
 
+        .wrapper {
+            max-width: 750px;
+            flex-wrap: wrap;
+            margin: auto;
+            display: flex;
+        }
+
+        .wrapper > div {
+            flex: 1 1 150px;
+        }
+
     </style>
 
 </head>
 <body>
-    <div class="very_important_question">
-        <p>Liefste nonkel broer</p></br>
-        <h1 style="font-size:80px;font-family: shadows into light;margin-top: 0px;">Wil jij mijn <bold>peter</bold> zijn?</h1>
-        <p style="font-size:20px">Start opdracht: april 2024</p>
-        <div class="buttons" style="margin-top:70px">
-            <a href="https://www.ing.be/nl/" target="blank" style="text-decoration:none">
-                <button>
-                    <i class="fa-solid fa-hand-holding-dollar fa-xl" style="padding-right:10px"></i>
-                    Ja, start automatische betaling
-                </button>
+    <div class="wrapper">
+        <div class="very_important_question">
+            <p>Liefste nonkel broer</p></br>
+            <h1 style="font-size:80px;font-family: shadows into light;margin-top: 0px;">Wil jij mijn <bold>peter</bold> zijn?</h1>
+            <p style="font-size:20px">Start opdracht: april 2024</p>
+            <div class="buttons" style="margin-top:70px">
+                <a href="https://www.ing.be/nl/" target="blank" style="text-decoration:none">
+                    <button>
+                        <i class="fa-solid fa-hand-holding-dollar fa-xl" style="padding-right:10px"></i>
+                        Ja, start automatische betaling
+                    </button>
+                </a>
+                <a href="https://media.giphy.com/media/jXp6wAeHU3Ds3UoNMG/giphy.gif" target="blank">
+                    <button>
+                        <i class="fa-solid fa-face-sad-cry fa-xl" style="padding-right:10px"></i>
+                        Neen, laat je zus wenen
+                    </button>
             </a>
-            <a href="https://media.giphy.com/media/jXp6wAeHU3Ds3UoNMG/giphy.gif" target="blank">
-                <button>
-                    <i class="fa-solid fa-face-sad-cry fa-xl" style="padding-right:10px"></i>
-                    Neen, laat je zus wenen
-                </button>
-        </a>
-        </div>  
+            </div>  
+        </div>
     </div>
+    </body>
 </body>
